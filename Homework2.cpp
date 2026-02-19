@@ -7,6 +7,7 @@ struct Node {
 };
 
 // Floyd's cycle-finding algorithm (Tortoise and Hare)
+//joel added nothing here
 bool hasCycle(Node* head) {
     if (!head) return false;
     Node* slow = head;
